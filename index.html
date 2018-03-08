@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aliens_R_Real</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+      <div class="jumbotron text-center">
+          <h1 class="head">Aliens R Real</h1>   
+          <h3 class="head">A Log of Alien Sightings</h3>
+          <h4>From 1/1/2010 to 5/8/2014</h4>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-4" style="margin-left:-60px">
+        <div class="form-group">
+          <input type="text" class="form-control" id="date_time" placeholder="Enter a date (mm/dd/yyyy)">
+          <a id="search" class="btn btn-default">Search</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" id="tsizing">
+        <table class="table table-striped"> 
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Country</th>
+              <th>Shape</th>
+              <th>Duration</th>
+              <th id="comment-width">Comment</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="data.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
